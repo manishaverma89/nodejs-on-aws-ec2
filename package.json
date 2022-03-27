@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-on-aws-ec2",
+  "version": "1.0.0",
+  "description": "A Sample Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishaverma89/nodejs-on-aws-ec2.git"
+  },
+  "author": "Manisha Verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manishaverma89/nodejs-on-aws-ec2/issues"
+  },
+  "homepage": "https://github.com/manishaverma89/nodejs-on-aws-ec2#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
