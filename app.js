@@ -4,7 +4,7 @@ const port = 3000;
 
 app.get("/", function (req, res) {
   res.send(
-    "<h1>Success!</h1> <p> Hello,Welcome here to test ci/cd pipeline using nodejs application on aws-ec2 </p> "
+    "<h1>Success!!</h1> <p> Hello,Welcome here to test ci/cd pipeline using nodejs application on aws-ec2 </p> "
   );
 });
 

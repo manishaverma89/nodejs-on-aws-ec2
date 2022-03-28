@@ -6,7 +6,7 @@ files:
    destination: /home/ec2-user/nodejs-app
 hooks: 
   ApplicationRestart:
-   - location: scripts/application_restart.sh
+   - location: scripts/application_stop.sh
      timeout: 300
      runas: ec2-user
   BeforeInstall: 

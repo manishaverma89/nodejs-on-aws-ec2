@@ -4,7 +4,8 @@
   "description": "A Sample Project",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,9 @@
     "url": "https://github.com/manishaverma89/nodejs-on-aws-ec2/issues"
   },
   "homepage": "https://github.com/manishaverma89/nodejs-on-aws-ec2#readme",
+  
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
   }
 }
