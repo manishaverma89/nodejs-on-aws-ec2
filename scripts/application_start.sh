@@ -11,6 +11,6 @@ export NVM_DIR="$HOME/.nvm"
 
 #install node modules
 npm install express
-
+npm install nodemon
 #start our node app in the background
 node app.js > app.out.log 2> app.err.log < /dev/null &
