@@ -12,7 +12,6 @@ app.get("/price", function (req, res) {
   res.send([
       {
           totalProducts: 2
-
       },
     {
       productId: 101,
